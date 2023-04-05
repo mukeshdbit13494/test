@@ -30,6 +30,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public"))); //  "public" off of current is root
 console.log("hello this my branch code");
 console.log("hello this my branch code 2");
+console.log("hello this my branch code 3");
 const asyncLocalStorage = new AsyncLocalStorage();
 
 const requestIdMiddleware = (req, res, next) => {
@@ -70,7 +71,7 @@ child.on("close", (code) => {
     console.log(`child process exited with code ${code}`);
 });
 
-console.log("welcome to node")
+console.log("welcome to node");
 
 // const modifiedPdf = async () => {
 //     // This should be a Uint8Array or ArrayBuffer
