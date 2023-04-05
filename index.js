@@ -69,6 +69,8 @@ child.on("close", (code) => {
     console.log(`child process exited with code ${code}`);
 });
 
+console.log("welcome to node")
+
 // const modifiedPdf = async () => {
 //     // This should be a Uint8Array or ArrayBuffer
 //     // This data can be obtained in a number of different ways
