@@ -73,6 +73,7 @@ child.on("close", (code) => {
 });
 
 console.log("welcome to node");
+console.log("welcome to node 2");
 
 // const modifiedPdf = async () => {
 //     // This should be a Uint8Array or ArrayBuffer
